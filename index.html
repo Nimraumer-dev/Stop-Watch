@@ -22,7 +22,7 @@
                                 <div class="circle4">
                                     <div class="circle5">
                                         <div class="circle6">
-                                            <div class="line" on></div>
+                                            <div class="hand" id="secondHand"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -30,14 +30,13 @@
                         </div>
                     </div>
                 </div>
-                <h2 id="display">00:00:00</h2>
                 <div>
-                    <button class="start">Start</button>
-                    <button class="stop">Stop</button>
-                    <button class="reset">Reset</button>
+                    <h2 id="display">00:00:00</h2>
+
+                    <button class="start" onclick="startBtn()">Start</button>
+                    <button class="stop" onclick="stopBtn()">Stop</button>
+                    <button class="reset" onclick="resetBtn()">Reset</button>
                 </div>
-
-
             </div>
         </div>
     </div>
